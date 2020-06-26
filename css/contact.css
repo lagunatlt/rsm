@@ -10,6 +10,9 @@
 	width: 100%;
 	justify-content: space-between;
 }
+.cont-block__title {
+	font-weight: 900;
+}
 .contacts p {
 	margin: 7px 0;
 }
@@ -20,14 +23,30 @@
 .cont-title {
 	max-width: 350px;
 }
+
+p.cont-title {
+	margin-bottom: 15px;
+}
 .cont-block{
+	margin-bottom: 15px;
+	padding: 15px 30px;
 	background-color: #EDEFF8;
 	border-radius: 6px;
 	box-sizing: border-box;
-	padding: 15px 30px;
 }
-.cont-block__title {
-	font-weight: 900;
+
+.block__phones {
+	width: 41px;
+	height: 41px;
+	border-radius: 6px;
+	background-color: #fff;
+	box-sizing: border-box;
+	box-shadow: 0 0 30px #e6e6e68f;
+	margin-right: 3px;
+	display: inline-block;
+}
+p.inn {
+	margin-bottom: 18px;
 }
 .contacts__maps {
 	border: 1px solid #000;
