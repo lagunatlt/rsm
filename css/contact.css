@@ -1,0 +1,38 @@
+
+.contacts {
+	max-width: 1170px;
+	margin: 0 auto;
+	font-family: 'Open Sans',	sans-serif;
+	font-size: 16px;
+	color: #353535;
+	line-height: 1.5;
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+.contacts p {
+	margin: 7px 0;
+}
+.contacts__desc {
+	width: 100%;
+	max-width: 472px;
+}
+.cont-title {
+	max-width: 350px;
+}
+.cont-block{
+	background-color: #EDEFF8;
+	border-radius: 6px;
+	box-sizing: border-box;
+	padding: 15px 30px;
+}
+.cont-block__title {
+	font-weight: 900;
+}
+.contacts__maps {
+	border: 1px solid #000;
+
+	width: 100%;
+	box-sizing: border-box;
+	max-width: 672px;
+}
