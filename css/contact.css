@@ -7,6 +7,8 @@
 	color: #353535;
 	line-height: 1.5;
 	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
 	width: 100%;
 	justify-content: space-between;
 	box-sizing: border-box;
@@ -14,6 +16,9 @@
 .contacts a {
 	color: #353535;
 	text-decoration: none;
+}
+.contacts__desc {
+	margin-right: 28px;
 }
 .cont-block__title {
 	font-weight: 900;
@@ -38,6 +43,13 @@ p.cont-title {
 	background-color: #EDEFF8;
 	border-radius: 6px;
 	box-sizing: border-box;
+}
+.cont-block__adress {
+	display: flex;
+	flex-direction: column;
+}
+.cont-block__adress div{
+	margin-bottom: 3px;
 }
 
 .block__phones {
@@ -114,29 +126,42 @@ p.inn {
 
 	width: 100%;
 	box-sizing: border-box;
-	max-width: 672px;
+	max-width: 670px;
 	margin-top: 15px;
 }
 .map__inner {
-	border: 1px solid red;
+	/* border: 1px solid red; */
 
 	width: 100%;
+	height: 100%;
 	max-width: 670px;
-	height: 487px;
+	max-height: 487px;
 	border-radius: 8px;
 	margin-bottom: 15px;
 	box-sizing: border-box;
+	overflow: hidden;
 }
 .map__imgs {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
+	flex-wrap: wrap;
 	box-sizing: border-box;
 }
 .map__img {
-	border: 1px solid grey;
+	/* border: 1px solid grey; */
 
 	width: 213px;
 	height: 168px;
+	margin: 0 5px 15px 5px;
 	border-radius: 8px;
 	box-sizing: border-box;
+	overflow: hidden;
+}
+.map__img img{
+	width: 100%;
+	height: 100%;
+	-o-object-fit: cover;
+	object-fit: cover;
+	-o-object-position: center;
+	object-position: center;
 }
