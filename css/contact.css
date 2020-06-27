@@ -9,12 +9,17 @@
 	display: flex;
 	width: 100%;
 	justify-content: space-between;
+	box-sizing: border-box;
+}
+.contacts a {
+	color: #353535;
+	text-decoration: none;
 }
 .cont-block__title {
 	font-weight: 900;
 }
 .contacts p {
-	margin: 7px 0;
+	margin: 5px 0;
 }
 .contacts__desc {
 	width: 100%;
@@ -29,7 +34,7 @@ p.cont-title {
 }
 .cont-block{
 	margin-bottom: 15px;
-	padding: 15px 30px;
+	padding: 19px 30px;
 	background-color: #EDEFF8;
 	border-radius: 6px;
 	box-sizing: border-box;
@@ -42,9 +47,12 @@ p.cont-title {
 	border-radius: 6px;
 	background-color: #fff;
 	box-sizing: border-box;
-	box-shadow: 0 0 30px #e6e6e68f;
+	box-shadow: 0 0 30px rgba(230, 230, 230, 0.6), 0 0 30px rgba(230, 230, 230, 0.6);
 	margin-right: 3px;
 	display: inline-block;
+}
+.block__phones:hover {
+	box-shadow: 0 0 30px rgba(230, 230, 230, 0.6), 0 0 4px rgb(213, 213, 213);
 }
 .block__phones::before {
 	position: absolute;
@@ -99,12 +107,36 @@ p.cont-title {
 }
 
 p.inn {
-	margin-bottom: 18px;
+	margin-bottom: 16px;
 }
 .contacts__maps {
-	border: 1px solid #000;
+	/* border: 1px solid #000; */
 
 	width: 100%;
 	box-sizing: border-box;
 	max-width: 672px;
+	margin-top: 15px;
+}
+.map__inner {
+	border: 1px solid red;
+
+	width: 100%;
+	max-width: 670px;
+	height: 487px;
+	border-radius: 8px;
+	margin-bottom: 15px;
+	box-sizing: border-box;
+}
+.map__imgs {
+	display: flex;
+	justify-content: space-between;
+	box-sizing: border-box;
+}
+.map__img {
+	border: 1px solid grey;
+
+	width: 213px;
+	height: 168px;
+	border-radius: 8px;
+	box-sizing: border-box;
 }
